@@ -29,7 +29,7 @@ class App extends React.Component {
       <Logo />
       <svg src='untitled.svg' ></svg>
       <div className='product-ctn'>
-
+      <h2>Sweaters for Women</h2>
       {this.state.products.map(product => {
         return (
           <div>
