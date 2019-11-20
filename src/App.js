@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { removeTypeDuplicates } from '@babel/types';
 import axios from 'axios'
 
 import Nav from './components/Nav'
+import { ReactComponent as Logo } from './untitled.svg';
 
 class App extends React.Component {
   constructor(){
@@ -26,11 +26,13 @@ class App extends React.Component {
     return (
       <>
       <Nav />
+      <Logo />
+      <svg src='untitled.svg' ></svg>
       {this.state.products.map(product => {
         return (
           <>
           <p>{product.title}</p>
-          <img src = {product.img}/>
+          <a href='#'><img src = {product.img}/></a>
           </>
         )
       })}
