@@ -24,21 +24,24 @@ class App extends React.Component {
   }
   render(){
     return (
-      <>
+      <div>
       <Nav />
       <Logo />
       <svg src='untitled.svg' ></svg>
+      <div className='product-ctn'>
+
       {this.state.products.map(product => {
         return (
-          <>
+          <div>
           <p>{product.title}</p>
           <a href='#'><img src = {product.img}/></a>
-          </>
+          </div>
         )
       })}
-      
-      </>
+      </div>
+      </div>
     )
+    
   }
    
 }
