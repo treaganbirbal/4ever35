@@ -1,7 +1,19 @@
- {
+
+{
+    "sweaters":[
+        {
     "id": 1,
     "img": "https://fastly.hautelookcdn.com/products/537264/large/11854798.jpg?height=350&width=228",
     "desc": "A cute and cozy knit poncho features an asymmetrical neck and hem for flattering style",
     "size": ["x-small", "small", "medium", "large", "x-large"],
     "rating": 0
+        }, 
+ {
+    "id": 2,
+    "img": "https://fastly.hautelookcdn.com/products/F181106N/large/9457562.jpg?height=350&width=228",
+    "desc": "A textured stitch knit with tonal space dyed yarns gives cozy appeal to a drapey cardigan that wards off the office AC chill",
+    "size": ["x-small", "small", "medium", "large", "x-large"],
+    "rating": 0
+ }    
+    ]
 }
