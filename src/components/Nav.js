@@ -3,7 +3,17 @@ import React from 'react'
 
 const Nav = () => {
     return (
-        <li>  Nav  </li>
+       <a href="">
+           <ul>
+               <li>WOMEN</li>
+               <li>SHOES</li>
+               <li>BAGS & ACCESSORIES</li>
+               <li>BEAUTY</li>
+               <li>MEN</li>
+               <li>KIDS</li>
+               <li>HOME</li>
+           </ul>
+       </a>
     )
 }
 

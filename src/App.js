@@ -4,6 +4,7 @@ import { removeTypeDuplicates } from '@babel/types';
 import axios from 'axios'
 
 import Nav from './components/Nav'
+import Search from './components/Search'
 import { ReactComponent as Logo } from './untitled.svg';
 import { ReactComponent as Heart } from './heart.svg';
 
@@ -27,9 +28,11 @@ class App extends React.Component {
   render(){
     return (
       <div>
-      <Nav />
       <Logo />
-      <svg src='untitled.svg' ></svg>
+      <Search />
+      <Nav />
+
+      {/* <svg src='untitled.svg' ></svg> */}
       <div className='product-ctn'>
       <h2>Sweaters for Women</h2>
       {this.state.products.map(product => {
