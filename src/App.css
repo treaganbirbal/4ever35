@@ -2,16 +2,35 @@
 .product-ctn{
   display: flex;
   flex-direction: row;
-  align-content: flex-start;
+  align-content: space-between;
+  align-items: flex-start;
   /* border: 2px solid green; */
   margin-top: -300px;
 }
 
-img{
-  /* border: 2px solid gray; */
+h2{
+  position: absolute;
+  right: 50%;
+  top: 30%;
+}
+img {
+  padding: 4%;
+  margin: 2%;
+}
+img:hover{
+  /* padding: 4%;
+  margin: 5%; */
+  border: 1px solid gray;
 }
 svg{
   width: 500px;
+}
+
+.heart-icon{
+  width: 300px;
+  position: absolute;
+  top: 500px;
+  /* left: 500px; */
 }
 
 p{

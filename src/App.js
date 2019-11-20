@@ -5,6 +5,8 @@ import axios from 'axios'
 
 import Nav from './components/Nav'
 import { ReactComponent as Logo } from './untitled.svg';
+import { ReactComponent as Heart } from './heart.svg';
+
 
 class App extends React.Component {
   constructor(){
@@ -34,7 +36,10 @@ class App extends React.Component {
         return (
           <div>
           <p>{product.title}</p>
-          <a href='#'><img src = {product.img}/></a>
+          <a href='#'>
+            <img src = {product.img}/>
+          </a>
+          <Heart className='heart-icon' />
           </div>
         )
       })}
